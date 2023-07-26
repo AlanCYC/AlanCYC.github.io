@@ -1,2 +1,1 @@
-# AlanCYC.github.io
-AlanCYC.github.io
+# interactive-language.github.io
