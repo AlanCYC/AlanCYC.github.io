@@ -17,7 +17,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: 'Lato', Verdana, Helvetica, Calibri;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -49,7 +49,7 @@ table {
 }
 
 #body{
-    font-family: roboto, sans-serif;
+    font-family: 'Lato', Verdana, Helvetica, Calibri;
 }
 
 #main {
@@ -59,12 +59,12 @@ table {
 }
 
 p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
 }
 
 li {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
 }
 
@@ -101,12 +101,15 @@ h1 {
 
 h2 {
     font-size: 24px;
-    line-height: 24px;
+    /* line-height: 24px; */
     width: 100%;
     color: #333333;
     margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 30px;
+    font-weight: 300;
+    line-height: 1.1;
+    font-family: 'Lato', Verdana, Helvetica, Calibri;
 }
 
 h3 {
@@ -141,7 +144,7 @@ h3 {
 
 #profile-name {
     width: 100%;
-    font-size: 36px;
+    font-size: 34px;
     line-height: 36px;
     color: #333333;
     margin-bottom: 10px;
@@ -154,7 +157,7 @@ h3 {
       list-style: none;
       margin-left: -0.5em;
       margin-right: -0.5em;
-      font-size: 18px;
+      font-size: 15px;
       padding-left: 0;
   }
   
@@ -177,7 +180,7 @@ h3 {
 
 #profile-authors {
     width: 100%;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 30px;
     /*height: 40px;*/
     color: #333333;
@@ -229,7 +232,7 @@ h3 {
   box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
+body { font-family: 'Lato', Verdana, Helvetica, Calibri; }
 
 .gallery {
   margin-bottom: 40px;
@@ -397,7 +400,7 @@ body { font-family: sans-serif; }
 }
 
 .people-profile p {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -412,7 +415,7 @@ body { font-family: sans-serif; }
 }
 
 .kchoro p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 /**************************************************/
@@ -461,13 +464,13 @@ body { font-family: sans-serif; }
 }
 
 div.bib {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 20px;
     margin-left: 30px;
     border-radius: 0.35em;
     border: solid 2px #efefef;
     background: #f7f7f7;
-    font-family: monospace;
+    font-family: 'Lato', Verdana, Helvetica, Calibri;
     padding: 20px;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -489,7 +492,7 @@ div.bib {
 .vd {
     margin-left: 30px;
     float: left;
-    font-family:courier, courier new, serif;
+    font-family:'Lato', Verdana, Helvetica, Calibri;
     text-decoration: none;
     border-bottom: none;
     text-align: center;
@@ -502,7 +505,7 @@ div.bib {
     margin-left: 30px;
     float: left;
     height: 240px;
-    font-family:courier, courier new, serif;
+    font-family:'Lato', Verdana, Helvetica, Calibri;
 }
 
 .highlight-proj video {
@@ -550,7 +553,7 @@ div.bib {
 }
 
 ul {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     /*list-style-position: inside;*/
     list-style-type: disc;
@@ -558,7 +561,7 @@ ul {
 }
 
 ol {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     /*list-style-position: inside;*/
     list-style-type: letters;
@@ -577,7 +580,7 @@ ol {
 
 .showBtn {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     float: left;
 }
@@ -653,7 +656,7 @@ ol {
 
 .research-proj h2 {
     color: #191e3f;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
 }
 
@@ -666,7 +669,7 @@ ol {
 }
 
 .research-proj p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     color: #a0a8b0;
 }
@@ -692,7 +695,7 @@ ol {
     width: 100%;
     margin-top: 120px;
     margin-left: 30px;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
